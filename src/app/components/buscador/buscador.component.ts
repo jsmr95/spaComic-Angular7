@@ -10,6 +10,7 @@ export class BuscadorComponent implements OnInit {
 
   heroes:any[] = [];
   termino:string;
+  
   constructor( private activatedRoute:ActivatedRoute,
                private _heroesService:HeroesService) { }
 
